@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Dropdown Menu with Search Box | Vibhanshu</title>
+  <title>Dropdown Menu with Search Box| Vibhanshu</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
@@ -274,6 +274,23 @@ nav .content .links{
   font-size: 45px;
   margin: 5px 0;
 }
+    
+    
+    	    .whatsApp {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #25D366;
+    color: #fff;
+    font-size: 40px;
+    position: fixed;
+    left: 10px;
+    z-index: 9;
+    bottom: 10px;
+}
   </style>
 </head>
 <body>
@@ -291,7 +308,7 @@ nav .content .links{
           <li>
             <a href="#" class="desktop-link">Features</a>
             <input type="checkbox" id="show-features">
-            <label for="show-features">Features</label>
+            <label for="show-features">Features <i class="fas fa-chevron-down"></i></label>
             <ul>
               <li><a href="#">Drop Menu 1</a></li>
               <li><a href="#">Drop Menu 2</a></li>
@@ -302,7 +319,7 @@ nav .content .links{
           <li>
             <a href="#" class="desktop-link">Services</a>
             <input type="checkbox" id="show-services">
-            <label for="show-services">Services</label>
+            <label for="show-services">Services <i class="fas fa-chevron-down"></i></label>
             <ul>
               <li><a href="#">Drop Menu 1</a></li>
               <li><a href="#">Drop Menu 2</a></li>
@@ -310,7 +327,7 @@ nav .content .links{
               <li>
                 <a href="#" class="desktop-link">More Items</a>
                 <input type="checkbox" id="show-items">
-                <label for="show-items">More Items</label>
+                <label for="show-items">More Items <i class="fas fa-chevron-right"></i></label>
                 <ul>
                   <li><a href="#">Sub Menu 1</a></li>
                   <li><a href="#">Sub Menu 2</a></li>
@@ -331,9 +348,12 @@ nav .content .links{
   </div>
 
   <div class="dummy-text">
-    <h2>Responsive Dropdown Menu Bar with Searchbox</h2>
-    <h2>using only HTML & CSS - Flexbox</h2>
+    <h2>Whatapp Chat Button</h2>
+    
   </div>
+
+<!--   Whatapp Chat Button   -->
+  <a href="https://api.whatsapp.com/send?phone=+918809233239" class="whatsApp" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
 
 </body>
 </html>
